@@ -1,6 +1,6 @@
 
 div {display: flex; align-items: center; flex-direction: column; background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)}
-div {height: 400px; max-width: 430px; margin-top: 120px; margin-left:450px; border-radius: 8px;}
+div {height: 400px; max-width: 100%; margin-top: 120px; margin-left:450px; border-radius: 8px;}
 .content {font-family:candara;}
 h1,h2 {text-align: center;}
 h1 {padding-top: 30px; padding-bottom:5px;}
