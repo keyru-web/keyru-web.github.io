@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css"><title>Log-in Page</title>
-    </head>
- <body>
-
-<div class="content">
-<header><h1>Log-in Form</h1>
-<h2>Enter Your Log-in Credentials</h2></header>
-<form>
-    <label for="username">Username:</label><br>
-    <input type="text" name="username" id="username" placeholder="Enter Your Username"><br><br>
-
-<label for="email">Email:</label><br>
-<input type="email" name="email" id="email" placeholder="Enter Your Email"><br><br>
-<input type="submit">
-</form>
-<p>Not Registered? Create an Account</p>
-</div>
+<head><title>Profile Card UI Design</title></head>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale:1.0">
+  
+    <body>
+        <div class="profilecard">
+            <div class="image">
+                <img src="KEYRU.jpg" alt="" class="profile-image">
+            </div>
+            <div class="text-data">
+                <span class="name">Keyra Lab</span>
+                <span class="job">Front-End Web Developer</span>
+            </div>
+            <div class="media-buttons">
+                <a href="#" class="link" style="background:#4767b2 ;"><i class='bx bxl-meta'></i></a>
+                <a href="#" class="link" style="background:red;"><i class='bx bxl-youtube'></i></a>
+                <a href="#" class="link" ><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="link" style="background:black;"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <div class="buttons">
+                <button class="button">Subscribe</button>
+                <button class="button">Message</button>
+            </div>
+            <div class="analytics">
+                <div class="data"><i class='bx bx-heart' ></i>
+                <span class="number">100K</span>
+                </div>  
+                <div class="data"><i class='bx bx-message'></i>
+                    <span class="number">50K</span>
+                    </div>  
+                    <div class="data"><i class='bx bx-share'></i>
+                        <span class="number">200K</span>
+                        </div>
+            </div>
+        </div>
     </body>
 </html>
